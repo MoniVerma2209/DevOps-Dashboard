@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DevOps Dashboard ⚙️</h1>
+  </header>
+
+  <main class="dashboard">
+    <section class="card">
+      <h2>System Health</h2>
+      <p>CPU Usage: <span id="cpu">0%</span></p>
+      <p>Memory Usage: <span id="memory">0%</span></p>
+      <p>Disk Usage: <span id="disk">0%</span></p>
+    </section>
+
+    <section class="card">
+      <h2>Deployment Status</h2>
+      <ul id="deployments">
+        <li>Build #101 - ✅ Success</li>
+        <li>Build #102 - ⏳ In Progress</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Logs</h2>
+      <div id="logs" class="logs"></div>
+    </section>
+
+    <section class="card">
+      <h2>Alerts</h2>
+      <p id="alerts">No alerts 🚀</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 DevOps Dashboard Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
